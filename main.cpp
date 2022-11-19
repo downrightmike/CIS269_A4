@@ -76,7 +76,7 @@ void sumRows(int matrix[][NUMBER_OF_COLUMNS], int noOfRows) {
 }
 int sumRowsCheck(int matrix[][NUMBER_OF_COLUMNS], int noOfRows) {
   int sum;
-  int sling[noOfRows];
+  int sling[noOfRows];// Like a sling of Oreos
   // Sum of each individual row
   for (int row = 0; row < noOfRows; row++) {
     sum = 0;
